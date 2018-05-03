@@ -6,26 +6,44 @@ html, body {
 body {
 	background-image: url("img.jpg");
 	background-size: cover;
-
+	font-family: 'Tajawal', sans-serif;
 
 }
 
+
+/*TITRE*/
 h1{
-	color: orange;
+	color: #F9690E;
 	font-size: 4rem;
 	text-align: center;
 }
 
 
-.btn{
-	border-radius: 300px;
-  background-color: orange;
-  border-color: orange;
+/*HR*/
+hr{
+	border-width: 3px;
+	max-width: 100px;
+	border-color: #F9690E;
+	margin-top: 200px;
+  	margin-bottom: 30px;
 }
 
 
+/*BOUTON*/
+.btn{
+	border-radius: 300px;
+  	background-color: #F9690E;
+  	border-color: #F9690E;
+  	font-weight: 700;
+  	text-transform: uppercase;
+}
+
+.d-flex{
+	justify-content: center;
+}
+
 .btn:hover{
 	border-width: 5px;
-	 background-color: orange;
-  border-color: orange;
+	background-color: #E67E22;
+ 	border-color: #E67E22;
 }
